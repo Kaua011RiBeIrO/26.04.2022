@@ -1,0 +1,44 @@
+.banner{
+    background-image: url("index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar-light a.navbar-brand{
+    color: #ffebd2;
+    font-size: 50px;
+    
+}
+
+.navbar-light .navbar-nav a.nav-link{
+    color: #ffebd2;
+    padding-left: 35px;
+    font-size: 20px;
+}
+.Conteudoparagrafo{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1fr;
+
+}
+.paragrafo{
+    font-size: 30px;
+    align-self: center;
+    color: #ffebd2;
+    margin-left: 20px;
+}
+
+.circulo{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url("nois.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
